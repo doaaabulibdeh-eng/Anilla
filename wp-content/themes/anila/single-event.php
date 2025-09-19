@@ -1,0 +1,24 @@
+<?php
+
+get_header(); ?>
+
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+            <?php
+            while (have_posts()) :
+                the_post();
+
+                do_action('anila_single_event_before');
+
+                get_template_part('template-parts/event/content', 'single');
+                
+                do_action('anila_single_event_after');
+
+            endwhile; // End of the loop.
+            ?>
+
+        </main><!-- #main -->
+    </div><!-- #primary -->
+<?php
+do_action('anila_sidebar');
+get_footer();

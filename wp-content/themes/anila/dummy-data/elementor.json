@@ -1,0 +1,118 @@
+{
+    "system_colors": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "color": "#145954"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary(Heading)",
+            "color": "#1A1C1B"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "color": "#4C4F4E"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "color": "#F3BF5B"
+        },
+        {
+            "_id": "lighter",
+            "title": "Lighter",
+            "color": "#8A8E8C"
+        },
+        {
+            "_id": "dark",
+            "title": "Dark",
+            "color": "#000000"
+        },
+        {
+            "_id": "border",
+            "title": "Border",
+            "color": "#E5EAE8"
+        },
+        {
+            "_id": "background-field",
+            "title": "Background Field",
+            "color": "#F5F5F5"
+        }
+    ],
+    "custom_colors": [],
+    "system_typography": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "typography_typography": "custom",
+            "typography_font_family": "Fahkwang",
+            "typography_font_weight": "400"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary(Heading)",
+            "typography_typography": "custom",
+            "typography_font_family": "Fahkwang",
+            "typography_font_weight": "400"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_weight": "400"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_weight": "700"
+        },
+        {
+            "_id": "special",
+            "title": "Special",
+            "typography_typography": "custom"
+        }
+    ],
+    "custom_typography": [],
+    "default_generic_fonts": "Sans-serif",
+    "site_name": "Anila",
+    "site_description": "Outdoor & Sport Store WordPress Theme ",
+    "page_title_selector": "h1.entry-title",
+    "activeItemIndex": 1,
+    "active_breakpoints": [
+        "viewport_mobile",
+        "viewport_mobile_extra",
+        "viewport_tablet",
+        "viewport_tablet_extra",
+        "viewport_laptop"
+    ],
+    "viewport_md": 768,
+    "viewport_lg": 1025,
+    "container_width": {
+        "unit": "px",
+        "size": 1290,
+        "sizes": []
+    },
+    "space_between_widgets": {
+        "column": "0",
+        "row": "0",
+        "isLinked": true,
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+    },
+    "body_background_background": "classic",
+    "body_background_color": "#FAF9F7",
+    "container_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+    }
+}

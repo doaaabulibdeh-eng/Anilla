@@ -1,0 +1,13 @@
+{
+    "anila_options_blog_single_sidebar": "right",
+    "anila_options_blog_single_style": "2",
+    "anila_options_wocommerce_single_style": "1",
+    "anila_options_single_product_tab_layout": "default",
+    "woocommerce_catalog_columns": "3",
+    "anila_options_wocommerce_row_laptop": "2",
+    "anila_options_wocommerce_row_tablet": "1",
+    "anila_options_wocommerce_column_list_view": "1",
+    "anila_options_woocommerce_product_hover": "left-to-right",
+    "anila_options_single_product_content_meta": "<p>[hfe_template id=\\'1382\\']<\/p>",
+    "anila_options_coach_bottom_template": "coach-template"
+}

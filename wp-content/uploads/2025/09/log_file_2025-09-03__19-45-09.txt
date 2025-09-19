@@ -1,0 +1,17 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2025/09/content.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/uploads/2025/09/widgets.json
+Customizer file = not defined!
+Redux files:
+not defined!

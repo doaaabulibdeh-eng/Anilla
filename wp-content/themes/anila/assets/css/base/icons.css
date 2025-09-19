@@ -1,0 +1,3878 @@
+@charset "UTF-8";
+/* Text meant only for screen readers. */
+/* ===== Start ICONS CSS ===== */
+@font-face {
+  font-family: "anila-icon";
+  src: url("./assets/fonts/icons/anila-icon-1.0.11.eot");
+  src: url("./assets/fonts/icons/anila-icon-1.0.11.eot?#iefix") format("eot"), url("./assets/fonts/icons/anila-icon-1.0.11.woff2") format("woff2"), url("./assets/fonts/icons/anila-icon-1.0.11.woff") format("woff"), url("./assets/fonts/icons/anila-icon-1.0.11.ttf") format("truetype"), url("./assets/fonts/icons/anila-icon-1.0.11.svg#anila-icon-1.0.11") format("svg");
+}
+[class*=anila-icon-] {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.anila-icon-a-left:before {
+  content: "";
+}
+
+.anila-icon-a-right:before {
+  content: "";
+}
+
+.anila-icon-ask:before {
+  content: "";
+}
+
+.anila-icon-breadcrumb:before {
+  content: "";
+}
+
+.anila-icon-bullet-list-line:before {
+  content: "";
+}
+
+.anila-icon-calendar:before {
+  content: "";
+}
+
+.anila-icon-cardio-exercises:before {
+  content: "";
+}
+
+.anila-icon-check-mark:before {
+  content: "";
+}
+
+.anila-icon-clock:before {
+  content: "";
+}
+
+.anila-icon-competive:before {
+  content: "";
+}
+
+.anila-icon-consultation:before {
+  content: "";
+}
+
+.anila-icon-custom-brand:before {
+  content: "";
+}
+
+.anila-icon-double-left:before {
+  content: "";
+}
+
+.anila-icon-double-right:before {
+  content: "";
+}
+
+.anila-icon-filters:before {
+  content: "";
+}
+
+.anila-icon-guide1:before {
+  content: "";
+}
+
+.anila-icon-information1:before {
+  content: "";
+}
+
+.anila-icon-instagram-o:before {
+  content: "";
+}
+
+.anila-icon-large-o:before {
+  content: "";
+}
+
+.anila-icon-linkedin-in:before {
+  content: "";
+}
+
+.anila-icon-list-ul:before {
+  content: "";
+}
+
+.anila-icon-movies:before {
+  content: "";
+}
+
+.anila-icon-nutrition:before {
+  content: "";
+}
+
+.anila-icon-phone-call:before {
+  content: "";
+}
+
+.anila-icon-pilates:before {
+  content: "";
+}
+
+.anila-icon-plan:before {
+  content: "";
+}
+
+.anila-icon-play-fill:before {
+  content: "";
+}
+
+.anila-icon-play:before {
+  content: "";
+}
+
+.anila-icon-plus-m:before {
+  content: "";
+}
+
+.anila-icon-post-on:before {
+  content: "";
+}
+
+.anila-icon-quote1:before {
+  content: "";
+}
+
+.anila-icon-quote2:before {
+  content: "";
+}
+
+.anila-icon-reply-line:before {
+  content: "";
+}
+
+.anila-icon-report:before {
+  content: "";
+}
+
+.anila-icon-setting:before {
+  content: "";
+}
+
+.anila-icon-share-all:before {
+  content: "";
+}
+
+.anila-icon-shopping-bag:before {
+  content: "";
+}
+
+.anila-icon-shoppingcart-o:before {
+  content: "";
+}
+
+.anila-icon-sliders-v:before {
+  content: "";
+}
+
+.anila-icon-square-o:before {
+  content: "";
+}
+
+.anila-icon-support:before {
+  content: "";
+}
+
+.anila-icon-tags:before {
+  content: "";
+}
+
+.anila-icon-th-large-o:before {
+  content: "";
+}
+
+.anila-icon-two-line:before {
+  content: "";
+}
+
+.anila-icon-user1:before {
+  content: "";
+}
+
+.anila-icon-360:before {
+  content: "";
+}
+
+.anila-icon-Check-mark:before {
+  content: "";
+}
+
+.anila-icon-Clip-path-group:before {
+  content: "";
+}
+
+.anila-icon-Mail:before {
+  content: "";
+}
+
+.anila-icon-Online_Support:before {
+  content: "";
+}
+
+.anila-icon-arrow-down:before {
+  content: "";
+}
+
+.anila-icon-arrow-left:before {
+  content: "";
+}
+
+.anila-icon-arrow-right:before {
+  content: "";
+}
+
+.anila-icon-arrow-up:before {
+  content: "";
+}
+
+.anila-icon-bars:before {
+  content: "";
+}
+
+.anila-icon-bullet-list-line2:before {
+  content: "";
+}
+
+.anila-icon-caret-down:before {
+  content: "";
+}
+
+.anila-icon-caret-left:before {
+  content: "";
+}
+
+.anila-icon-caret-right:before {
+  content: "";
+}
+
+.anila-icon-caret-up:before {
+  content: "";
+}
+
+.anila-icon-cart-1:before {
+  content: "";
+}
+
+.anila-icon-cart-empty:before {
+  content: "";
+}
+
+.anila-icon-cart:before {
+  content: "";
+}
+
+.anila-icon-check-square:before {
+  content: "";
+}
+
+.anila-icon-chevron-down:before {
+  content: "";
+}
+
+.anila-icon-chevron-left:before {
+  content: "";
+}
+
+.anila-icon-chevron-right:before {
+  content: "";
+}
+
+.anila-icon-chevron-up:before {
+  content: "";
+}
+
+.anila-icon-circle:before {
+  content: "";
+}
+
+.anila-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.anila-icon-comment:before {
+  content: "";
+}
+
+.anila-icon-comments:before {
+  content: "";
+}
+
+.anila-icon-compare:before {
+  content: "";
+}
+
+.anila-icon-credit-card:before {
+  content: "";
+}
+
+.anila-icon-delivery-truck:before {
+  content: "";
+}
+
+.anila-icon-dot-circle:before {
+  content: "";
+}
+
+.anila-icon-edit:before {
+  content: "";
+}
+
+.anila-icon-envelope:before {
+  content: "";
+}
+
+.anila-icon-expand-alt:before {
+  content: "";
+}
+
+.anila-icon-external-link-alt:before {
+  content: "";
+}
+
+.anila-icon-file-alt:before {
+  content: "";
+}
+
+.anila-icon-file-archive:before {
+  content: "";
+}
+
+.anila-icon-filter:before {
+  content: "";
+}
+
+.anila-icon-fire1:before {
+  content: "";
+}
+
+.anila-icon-folder-open:before {
+  content: "";
+}
+
+.anila-icon-folder:before {
+  content: "";
+}
+
+.anila-icon-frown:before {
+  content: "";
+}
+
+.anila-icon-gift:before {
+  content: "";
+}
+
+.anila-icon-grid-view-line:before {
+  content: "";
+}
+
+.anila-icon-grip-horizontal:before {
+  content: "";
+}
+
+.anila-icon-heart-fill:before {
+  content: "";
+}
+
+.anila-icon-heart:before {
+  content: "";
+}
+
+.anila-icon-history:before {
+  content: "";
+}
+
+.anila-icon-home:before {
+  content: "";
+}
+
+.anila-icon-info-circle:before {
+  content: "";
+}
+
+.anila-icon-instagram:before {
+  content: "";
+}
+
+.anila-icon-level-up-alt:before {
+  content: "";
+}
+
+.anila-icon-list:before {
+  content: "";
+}
+
+.anila-icon-map-marker-check:before {
+  content: "";
+}
+
+.anila-icon-meh:before {
+  content: "";
+}
+
+.anila-icon-minus-circle:before {
+  content: "";
+}
+
+.anila-icon-minus:before {
+  content: "";
+}
+
+.anila-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.anila-icon-money-bill:before {
+  content: "";
+}
+
+.anila-icon-money:before {
+  content: "";
+}
+
+.anila-icon-paper-plane:before {
+  content: "";
+}
+
+.anila-icon-pencil-alt:before {
+  content: "";
+}
+
+.anila-icon-plus-circle:before {
+  content: "";
+}
+
+.anila-icon-plus:before {
+  content: "";
+}
+
+.anila-icon-quickview:before {
+  content: "";
+}
+
+.anila-icon-random:before {
+  content: "";
+}
+
+.anila-icon-rating-stroke:before {
+  content: "";
+}
+
+.anila-icon-rating:before {
+  content: "";
+}
+
+.anila-icon-repeat:before {
+  content: "";
+}
+
+.anila-icon-reply-all:before {
+  content: "";
+}
+
+.anila-icon-reply:before {
+  content: "";
+}
+
+.anila-icon-search-plus:before {
+  content: "";
+}
+
+.anila-icon-search:before {
+  content: "";
+}
+
+.anila-icon-shield-check:before {
+  content: "";
+}
+
+.anila-icon-shopping-basket:before {
+  content: "";
+}
+
+.anila-icon-shopping-cart:before {
+  content: "";
+}
+
+.anila-icon-sign-out-alt:before {
+  content: "";
+}
+
+.anila-icon-smile:before {
+  content: "";
+}
+
+.anila-icon-spinner:before {
+  content: "";
+}
+
+.anila-icon-square:before {
+  content: "";
+}
+
+.anila-icon-star:before {
+  content: "";
+}
+
+.anila-icon-store:before {
+  content: "";
+}
+
+.anila-icon-sync:before {
+  content: "";
+}
+
+.anila-icon-sync_alt:before {
+  content: "";
+}
+
+.anila-icon-tachometer-alt:before {
+  content: "";
+}
+
+.anila-icon-th-large:before {
+  content: "";
+}
+
+.anila-icon-th-list:before {
+  content: "";
+}
+
+.anila-icon-thumbtack:before {
+  content: "";
+}
+
+.anila-icon-ticket:before {
+  content: "";
+}
+
+.anila-icon-times-circle:before {
+  content: "";
+}
+
+.anila-icon-times:before {
+  content: "";
+}
+
+.anila-icon-trophy-alt:before {
+  content: "";
+}
+
+.anila-icon-truck1:before {
+  content: "";
+}
+
+.anila-icon-user-headset:before {
+  content: "";
+}
+
+.anila-icon-user-shield:before {
+  content: "";
+}
+
+.anila-icon-user:before {
+  content: "";
+}
+
+.anila-icon-video:before {
+  content: "";
+}
+
+.anila-icon-wishlist-empty:before {
+  content: "";
+}
+
+.anila-icon-wishlist:before {
+  content: "";
+}
+
+.anila-icon-adobe:before {
+  content: "";
+}
+
+.anila-icon-amazon:before {
+  content: "";
+}
+
+.anila-icon-android:before {
+  content: "";
+}
+
+.anila-icon-angular:before {
+  content: "";
+}
+
+.anila-icon-apper:before {
+  content: "";
+}
+
+.anila-icon-apple:before {
+  content: "";
+}
+
+.anila-icon-atlassian:before {
+  content: "";
+}
+
+.anila-icon-behance:before {
+  content: "";
+}
+
+.anila-icon-bitbucket:before {
+  content: "";
+}
+
+.anila-icon-bitcoin:before {
+  content: "";
+}
+
+.anila-icon-bity:before {
+  content: "";
+}
+
+.anila-icon-bluetooth:before {
+  content: "";
+}
+
+.anila-icon-btc:before {
+  content: "";
+}
+
+.anila-icon-centos:before {
+  content: "";
+}
+
+.anila-icon-chrome:before {
+  content: "";
+}
+
+.anila-icon-codepen:before {
+  content: "";
+}
+
+.anila-icon-cpanel:before {
+  content: "";
+}
+
+.anila-icon-discord:before {
+  content: "";
+}
+
+.anila-icon-dochub:before {
+  content: "";
+}
+
+.anila-icon-docker:before {
+  content: "";
+}
+
+.anila-icon-dribbble:before {
+  content: "";
+}
+
+.anila-icon-dropbox:before {
+  content: "";
+}
+
+.anila-icon-drupal:before {
+  content: "";
+}
+
+.anila-icon-ebay:before {
+  content: "";
+}
+
+.anila-icon-facebook-f:before {
+  content: "";
+}
+
+.anila-icon-facebook-o:before {
+  content: "";
+}
+
+.anila-icon-facebook:before {
+  content: "";
+}
+
+.anila-icon-figma:before {
+  content: "";
+}
+
+.anila-icon-firefox:before {
+  content: "";
+}
+
+.anila-icon-google-plus:before {
+  content: "";
+}
+
+.anila-icon-google:before {
+  content: "";
+}
+
+.anila-icon-grunt:before {
+  content: "";
+}
+
+.anila-icon-gulp:before {
+  content: "";
+}
+
+.anila-icon-html5:before {
+  content: "";
+}
+
+.anila-icon-joomla:before {
+  content: "";
+}
+
+.anila-icon-link-brand:before {
+  content: "";
+}
+
+.anila-icon-linkedin:before {
+  content: "";
+}
+
+.anila-icon-mailchimp:before {
+  content: "";
+}
+
+.anila-icon-opencart:before {
+  content: "";
+}
+
+.anila-icon-paypal:before {
+  content: "";
+}
+
+.anila-icon-pinterest-p:before {
+  content: "";
+}
+
+.anila-icon-reddit:before {
+  content: "";
+}
+
+.anila-icon-skype:before {
+  content: "";
+}
+
+.anila-icon-slack:before {
+  content: "";
+}
+
+.anila-icon-snapchat:before {
+  content: "";
+}
+
+.anila-icon-spotify:before {
+  content: "";
+}
+
+.anila-icon-trello:before {
+  content: "";
+}
+
+.anila-icon-twitter:before {
+  content: "";
+}
+
+.anila-icon-vimeo:before {
+  content: "";
+}
+
+.anila-icon-whatsapp:before {
+  content: "";
+}
+
+.anila-icon-wordpress:before {
+  content: "";
+}
+
+.anila-icon-yoast:before {
+  content: "";
+}
+
+.anila-icon-youtube:before {
+  content: "";
+}
+
+/* ===== End ICONS CSS ===== */
+.anila-social ul {
+  margin: 0;
+  list-style-type: none;
+}
+.anila-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1;
+}
+.anila-social ul li:last-child {
+  margin-right: 0;
+}
+.anila-social ul li a:before {
+  position: relative;
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.anila-social ul li a[href*=twitter]:before {
+  content: "";
+  color: #1DA1F2;
+}
+.anila-social ul li a[href*=instagram]:before {
+  content: "";
+  color: #262626;
+}
+.anila-social ul li a[href*=docker]:before {
+  content: "";
+}
+.anila-social ul li a[href*=dochub]:before {
+  content: "";
+}
+.anila-social ul li a[href*=yelp]:before {
+  content: "";
+  color: #af0606;
+}
+.anila-social ul li a[href*=flickr]:before {
+  content: "";
+  color: #0063dc;
+}
+.anila-social ul li a[href*=github]:before {
+  content: "";
+  color: #333333;
+}
+.anila-social ul li a[href*=dribbble]:before {
+  content: "";
+  color: #ea4c89;
+}
+.anila-social ul li a[href*=wordpress]:before {
+  content: "";
+  color: #21759b;
+}
+.anila-social ul li a[href*=tumblr]:before {
+  content: "";
+  color: #35465c;
+}
+.anila-social ul li a[href*=angular]:before {
+  content: "";
+}
+.anila-social ul li a[href*=atlassian]:before {
+  content: "";
+}
+.anila-social ul li a[href*=snapchat]:before {
+  content: "";
+  color: #fffc00;
+}
+.anila-social ul li a[href*=apper]:before {
+  content: "";
+}
+.anila-social ul li a[href*=codepen]:before {
+  content: "";
+}
+.anila-social ul li a[href*=gulp]:before {
+  content: "";
+}
+.anila-social ul li a[href*=cpanel]:before {
+  content: "";
+}
+.anila-social ul li a[href*=skype]:before {
+  content: "";
+  color: #00AFF0;
+}
+.anila-social ul li a[href*=reddit]:before {
+  content: "";
+  color: #ff4500;
+}
+.anila-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+.anila-social ul li a[href*=slack]:before {
+  content: "";
+}
+.anila-social ul li a[href*=amazon]:before {
+  content: "";
+}
+.anila-social ul li a[href*=android]:before {
+  content: "";
+}
+.anila-social ul li a[href*=grunt]:before {
+  content: "";
+}
+.anila-social ul li a[href*=firefox]:before {
+  content: "";
+}
+.anila-social ul li a[href*=adobe]:before {
+  content: "";
+}
+.anila-social ul li a[href*=behance]:before {
+  content: "";
+}
+.anila-social ul li a[href*=dropbox]:before {
+  content: "";
+}
+.anila-social ul li a[href*=facebook]:before {
+  content: "";
+  color: #3b5998;
+}
+.anila-social ul li a[href*=linkedin]:before {
+  content: "";
+  color: #0077b5;
+}
+.anila-social ul li a[href*=paypal]:before {
+  content: "";
+}
+.anila-social ul li a[href*=trello]:before {
+  content: "";
+}
+.anila-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.anila-social ul li a[href*=youtube]:before {
+  content: "";
+  color: #cd201f;
+}
+.anila-social ul li a[href*=apple]:before {
+  content: "";
+  color: #999999;
+}
+.anila-social ul li a[href*=bitbucket]:before {
+  content: "";
+}
+.anila-social ul li a[href*=bitcoin]:before {
+  content: "";
+}
+.anila-social ul li a[href*=bluetooth]:before {
+  content: "";
+}
+.anila-social ul li a[href*=bity]:before {
+  content: "";
+}
+.anila-social ul li a[href*="google/chrome"]:before {
+  content: "";
+}
+.anila-social ul li a[href*=drupal]:before {
+  content: "";
+}
+.anila-social ul li a[href*=html5]:before {
+  content: "";
+}
+.anila-social ul li a[href*=mailchimp]:before {
+  content: "";
+}
+.anila-social ul li a[href*=jenkins]:before {
+  content: "";
+}
+.anila-social ul li a[href*=spotify]:before {
+  content: "";
+  color: #2ebd59;
+}
+.anila-social ul li a[href*=ebay]:before {
+  content: "";
+}
+.anila-social ul li a[href*=telegram]:before {
+  content: "";
+  color: #2CA5E0;
+}
+.anila-social ul li a[href*=yoast]:before {
+  content: "";
+}
+.anila-social ul li a[href*=btc-e]:before {
+  content: "";
+}
+.anila-social ul li a[href*=discord]:before {
+  content: "";
+}
+.anila-social ul li a[href*=google]:before {
+  content: "";
+  color: #dd4b39;
+}
+.anila-social ul li a[href*=google-plus]:before {
+  content: "";
+}
+.anila-social ul li a[href*=figma]:before {
+  content: "";
+}
+.anila-social ul li a[href*=joomla]:before {
+  content: "";
+}
+.anila-social ul li a[href*=opencart]:before {
+  content: "";
+}
+.anila-social ul li a[href*=pinterest]:before {
+  content: "";
+  color: #bd081c;
+}
+.anila-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.anila-social ul li a[href*=centos]:before {
+  content: "";
+}
+.anila-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+
+#comments .commentlist .bypostauthor > .comment-body cite::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+#comments .comment-meta a.comment-date::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+#comments .reply a::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -2px;
+}
+#comments .reply a.comment-edit-link::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-pagination .page-numbers.prev::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+.woocommerce-pagination .page-numbers.next::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+#respond #cancel-comment-reply-link::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+.sticky .entry-title::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.editor-styles-wrapper blockquote,
+.hentry .entry-content blockquote {
+  clear: both;
+}
+.editor-styles-wrapper blockquote:before,
+.hentry .entry-content blockquote:before {
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  color: var(--e-global-color-primary);
+  line-height: inherit;
+  vertical-align: top;
+}
+
+button.loading,
+input[type=button].loading,
+input[type=reset].loading,
+input[type=submit].loading,
+.button.loading {
+  position: relative;
+}
+button.loading::before,
+input[type=button].loading::before,
+input[type=reset].loading::before,
+input[type=submit].loading::before,
+.button.loading::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+a[class*=product_type_].loading,
+.added_to_cart.loading {
+  position: relative;
+}
+a[class*=product_type_].loading:after,
+.added_to_cart.loading:after {
+  content: "";
+}
+a[class*=product_type_].loading:before,
+.added_to_cart.loading:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.shop-action .blockUI.blockOverlay:before,
+.shop-action .loader:before {
+  opacity: 1 !important;
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 14px;
+  font-size: 0.875rem;
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-action .blockUI.blockOverlay {
+  opacity: 1 !important;
+  overflow: hidden;
+  background-image: none !important;
+  background: #fff !important;
+}
+
+.main-navigtion ul li a::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.mobile-navigation ul li button::after, .mobile-navigation-categories ul li button::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mobile-navigation ul li button.toggled-on::after, .mobile-navigation-categories ul li button.toggled-on::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_search:not(.widget_block) form::before,
+.widget_product_search form::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  transform: translate(0, -50%);
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  margin-top: -2px;
+}
+
+form.wp-block-search::before {
+  display: none;
+}
+form.wp-block-search .wp-block-search__inside-wrapper {
+  position: relative;
+}
+form.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: var(--e-global-color-secondary);
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.single-product .pswp__button {
+  background-color: transparent;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  text-indent: -999px;
+  overflow: hidden;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+  line-height: 20px;
+  text-indent: 0;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger img {
+  display: none !important;
+}
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .compare:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.stock::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407797364em;
+  margin-top: -4px;
+}
+.stock.in-stock::before {
+  content: "";
+}
+
+a.remove {
+  display: block;
+  width: 1.618034em;
+  height: 1.618034em;
+  line-height: 1.618;
+  font-weight: var(--e-global-typography-text-font-weight);
+  text-indent: -9999px;
+  position: relative;
+}
+a.remove::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--e-global-color-lighter);
+  line-height: 1.618;
+  text-indent: 0;
+  text-align: center;
+}
+
+.woocommerce-shipping-calculator > p:first-child a::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.3342202552em;
+}
+
+.blockUI::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  font-size: 1.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.woocommerce-pagination .next,
+.woocommerce-pagination .prev {
+  display: inline-block;
+  position: relative;
+}
+
+#shipping_method li > label {
+  cursor: pointer;
+  padding-right: 20px;
+  position: relative;
+}
+#shipping_method li > label::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#shipping_method li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#shipping_method li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#shipping_method li > input[type=radio]:first-child:checked + label::after {
+  content: "";
+}
+#shipping_method li > input[type=hidden]:first-child + label {
+  padding-right: 0;
+}
+#shipping_method li > input[type=hidden]:first-child + label::after {
+  content: none;
+}
+
+#payment .payment_methods li > label {
+  cursor: pointer;
+}
+#payment .payment_methods li > label::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+  transition: color, ease, 0.2s;
+}
+#payment .payment_methods li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 24px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:checked + label::before {
+  content: "";
+}
+
+.woocommerce-password-strength::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-password-strength.strong::after {
+  content: "";
+}
+.woocommerce-password-strength.good::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li a::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: 1.618;
+  margin-left: 0.5407797364em;
+  width: 1.41577975em;
+  text-align: right;
+  float: right;
+  opacity: 0.25;
+}
+.woocommerce-MyAccount-navigation ul li a:hover::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--subscriptions a::before {
+  content: "";
+}
+
+.my_account_orders .button.view::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+p.order-again .button::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.woocommerce-MyAccount-downloads .button::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.demo_store::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+#reviews .commentlist li p.meta .verified {
+  display: inline-block;
+  height: 1.41577975em;
+  width: 1.41577975em;
+  position: relative;
+  text-indent: -9999px;
+}
+#reviews .commentlist li p.meta .verified::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  color: #0f834d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.41577975em;
+  height: 1.41577975em;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.618034em;
+}
+
+/**
+ * Composite Products
+ */
+.single-product div.product .component_selections .clear_component_options::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Mix and Match
+ */
+.cart .mnm_table_item .mnm_table_item_indent::before,
+.shop_table .mnm_table_item .mnm_table_item_indent::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  transform: rotate(90deg);
+  margin-right: 0.3819660059em;
+  opacity: 0.25;
+}
+
+/**
+ * Quick view
+ */
+.quick-view-button::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.6180339845em;
+}
+
+/**
+ * Ship multiple addresses
+ */
+.woocommerce-page .ship_address .gift-form label::after,
+.woocommerce-page .no_shipping_address .gift-form label::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-page .ship_address .modify-address-button::before,
+.woocommerce-page .no_shipping_address .modify-address-button::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+.woocommerce-page .addresses + .addresses header.title a::before {
+  content: "";
+}
+
+/**
+ * Product reviews pro
+ */
+.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
+.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/**
+ * Variation Swatches
+ */
+a#variations_clear::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Wishlists
+ */
+.wl-add-link::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.button.wl-create-new::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.site-header-cart .cart-contents::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-anila-vertical-menu .vertical-navigation .anila-icon {
+  position: relative;
+}
+.elementor-widget-anila-vertical-menu .vertical-navigation .anila-icon::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 12px;
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+  .main-navigation ul.menu > li.menu-item-has-children > a:after, .main-navigation ul.menu > li.page_item_has_children > a:after, .main-navigation ul.menu > li.has-mega-menu > a:after,
+.main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 6px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    font-size: 0.5rem;
+    font-weight: 700;
+  }
+  .gecko .main-navigation ul.menu > li.menu-item-has-children > a:after, .gecko .main-navigation ul.menu > li.page_item_has_children > a:after, .gecko .main-navigation ul.menu > li.has-mega-menu > a:after,
+.gecko .main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.gecko .main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.gecko .main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    margin-bottom: 0;
+    vertical-align: sub;
+  }
+
+  .header-side .main-navigation ul.menu > li.menu-item-has-children > a::after, .header-side .main-navigation ul.menu > li.page_item_has_children > a::after, .header-side .main-navigation ul.menu > li.has-mega-menu > a::after,
+.header-side .main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.header-side .main-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.header-side .main-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 1em;
+    margin-right: -25px;
+  }
+
+  .vertical-navigation ul.menu > li.menu-item-has-children > a::after, .vertical-navigation ul.menu > li.page_item_has_children > a::after, .vertical-navigation ul.menu > li.has-mega-menu > a::after,
+.vertical-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.vertical-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.vertical-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+    font-size: 9px;
+    font-size: 0.5625rem;
+  }
+
+  .main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    float: right;
+    margin-left: 10px;
+    line-height: 1.8;
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .demo_store a.woocommerce-store-notice__dismiss-link::before {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-right: 0.3342202552em;
+  }
+
+  .addresses header.title a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0.875em;
+    margin-top: 0.6180339845em;
+  }
+  .addresses header.title a::before {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    line-height: 1.618;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  /**
+   * Wishlists
+   */
+  #wl-wrapper .wl-tabs > li.active::after {
+    font-family: "anila-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+  }
+}
+ul.wishlist_table.mobile .remove_from_wishlist:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.slick-prev:after,
+.slick-next:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.slick-prev:before {
+  content: "";
+}
+[dir=rtl] .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-prev:before {
+  content: "";
+}
+
+.slick-next:before {
+  content: "";
+}
+[dir=rtl] .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-next:before {
+  content: "";
+}
+
+.arrow-style-3 .slick-prev:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-prev:before {
+  content: "";
+}
+.arrow-style-3 .slick-next:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-next:before {
+  content: "";
+}
+
+body.loading {
+  position: relative;
+}
+body.loading::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  z-index: 999999;
+  color: #fff;
+}
+body.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999998;
+}
+
+.woocommerce-cart .cart-empty:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+.woocommerce-cart .wc-block-components-totals-coupon__form button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-cart .wc-block-components-totals-coupon__form button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_product_categories .icon-minus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 0;
+  z-index: 9;
+}
+.widget_product_categories .icon-minus:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+.widget_product_categories .icon-plus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 0;
+  z-index: 9;
+}
+.widget_product_categories .icon-plus:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+ul.products-list li.product-list .product-caption a[class*=product_type_]:after,
+ul.products-list li.product-list .product-caption .woosc-btn:after,
+ul.products-list li.product-list .product-caption .woosw-btn:after,
+ul.products-list li.product-list .product-caption .woosq-btn:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_] {
+  font-size: 14px;
+  font-size: 0.875rem;
+  width: auto;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_]:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_]:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading {
+  position: relative;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading:after {
+  content: "";
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading:after {
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding: 5px;
+}
+ul.products-list li.product-list .product-caption .woosw-btn:after {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosw-btn.woosw-adding:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+}
+ul.products-list li.product-list .product-caption .woosc-btn:before {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosq-btn:before {
+  content: "";
+}
+
+ul.products li.product .product-block a[class*=product_type_]:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+ul.products li.product .product-block a[class*=product_type_].loading:after {
+  content: "";
+}
+ul.products li.product .product-block a[class*=product_type_].loading:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 20px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.shop-action .woosc-btn:after,
+.shop-action .woosq-btn:after,
+.shop-action .woosw-btn:after,
+.shop-action a[class*=product_type_]:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.shop-action .woosc-btn.loading,
+.shop-action .woosq-btn.loading,
+.shop-action .woosw-btn.loading,
+.shop-action a[class*=product_type_].loading {
+  position: relative;
+}
+.shop-action .woosc-btn.loading:after,
+.shop-action .woosq-btn.loading:after,
+.shop-action .woosw-btn.loading:after,
+.shop-action a[class*=product_type_].loading:after {
+  content: "";
+}
+.shop-action .woosc-btn.loading:before,
+.shop-action .woosq-btn.loading:before,
+.shop-action .woosw-btn.loading:before,
+.shop-action a[class*=product_type_].loading:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  line-height: 20px;
+  font-size: 14px !important;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  margin: 0;
+}
+.shop-action .woosc-btn.woosw-adding:after,
+.shop-action .woosq-btn.woosw-adding:after,
+.shop-action .woosw-btn.woosw-adding:after,
+.shop-action a[class*=product_type_].woosw-adding:after {
+  display: none !important;
+}
+.shop-action .woosc-btn.woosw-adding:before,
+.shop-action .woosq-btn.woosw-adding:before,
+.shop-action .woosw-btn.woosw-adding:before,
+.shop-action a[class*=product_type_].woosw-adding:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 100%;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  position: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0);
+  background-color: transparent;
+}
+.shop-action .woosw-btn:after {
+  content: "";
+}
+.shop-action .woosw-btn.woosw-adding:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+  background-color: transparent;
+}
+.shop-action .woosc-btn:after {
+  content: "";
+}
+.shop-action .woosq-btn:after {
+  content: "";
+}
+.shop-action a[class*=product_type_]:before {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading {
+  position: relative;
+}
+.shop-action a[class*=product_type_].loading:after {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading:before {
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+}
+
+.woocommerce-widget-layered-nav-list li a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: var(--e-global-color-border);
+  cursor: pointer;
+  margin-right: 13px;
+}
+.woocommerce-widget-layered-nav-list li.chosen > a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 19px;
+  font-size: 1.1875rem;
+  color: var(--e-global-color-border);
+  cursor: pointer;
+  margin-right: 12px;
+  margin-bottom: 2px;
+}
+
+.woocommerce .active .toggled-on:has(span.anila_title_filter) .anila_title_filter:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.woocommerce .widget-title:has(span.anila_title_filter) .anila_title_filter:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.single-product div.product .entry-summary .woosc-btn:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+}
+.single-product div.product .entry-summary .woosc-btn.loading {
+  position: relative;
+}
+.single-product div.product .entry-summary .woosc-btn.loading::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+.single-product div.product .entry-summary .woosw-btn:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .woosw-btn.loading {
+  position: relative;
+}
+.single-product div.product .entry-summary .woosw-btn.loading::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+
+a.read-more:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+}
+
+.elementor-widget-anila-language-switcher.language-switcher-style-mobile .anila-language-switcher .language-switcher-head:after {
+  position: relative;
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  line-height: 12px;
+}
+
+.loading-quick-shop .product-transition::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.search-by-category .input-dropdown-inner > a:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.popup-navigation ul.menu > li.menu-item-has-children > a:after, .popup-navigation ul.menu > li.page_item_has_children > a:after, .popup-navigation ul.menu > li.has-mega-menu > a:after,
+.popup-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.popup-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.popup-navigation ul.nav-menu > li.has-mega-menu > a:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.popup-navigation ul.menu ul li.menu-item-has-children > a::after, .popup-navigation ul.menu ul li.page_item_has_children > a::after,
+.popup-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.popup-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  float: right;
+  margin-left: 0.5em;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.anila-elementor-single-product .shop-button a[class*=product_type_]:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+  margin-top: 3px;
+  float: right;
+  transition: all 0.3s ease;
+}
+
+.elementor-widget-anila-image-gallery .column-item a:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosw-list .woosw-content-mid-notice:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+
+.woosw-list .woosw-item--actions .add_to_cart a.button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-item--actions .add_to_cart a.button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-copy-btn button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-copy-btn button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+@keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-webkit-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-o-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-ms-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+.elementor-widget-anila-search .widget.widget_product_search button[type=submit]:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 0;
+}
+
+.woocommerce-tabs.product-accordions .accordion-head:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-tabs.product-accordions .accordion-head:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-opal-image-hotspots .elementor-tab-title:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.elementor-widget-opal-image-hotspots .elementor-tab-title.elementor-active:before {
+  content: "";
+}
+
+.scrollup .scrollup-icon:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-woocommerce-breadcrumb .woocommerce-breadcrumb > a:first-of-type:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 5px;
+  top: -2px;
+  position: relative;
+  font-size: 16px;
+  opacity: 0.85;
+  display: none;
+}
+
+.star-rating {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.star-rating:before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+.star-rating span::before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+
+a.more-link:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+[dir=rtl] a.more-link:after {
+  content: "";
+}
+a.more-link:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+[dir=rtl] a.more-link:before {
+  content: "";
+}
+
+.elementor-testimonial-item-wrapper .layout-4 .caption-top:before {
+  border: 1px solid var(--e-global-color-border);
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  animation-timing-function: linear;
+  z-index: -1;
+  transform: scale(1);
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+  top: 6px;
+  right: 0;
+  bottom: 0;
+  left: 8px;
+}
+
+form.woocommerce-form-track-order button:after {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  padding-left: 7px;
+}
+
+.pbr-social-share .bo-social-facebook i.opal-icon-facebook-f:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-twitter i.opal-icon-twitter:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-youtube i.opal-icon-youtube:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-instagram i.opal-icon-instagram:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .add_to_cart .button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.carousehover a:hover:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 30px;
+}
+
+.shipping_class:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-right: 10px;
+}
+
+.flex-direction-nav .flex-nav-prev a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.flex-direction-nav .flex-nav-next a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.time-sale .deal-text:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 35px;
+  font-size: 2.1875rem;
+}
+
+.single_add_to_cart_button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single_add_to_cart_button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+table.woocommerce-grouped-product-list .woocommerce-grouped-product-list-item__quantity a.button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+table.woocommerce-grouped-product-list .woocommerce-grouped-product-list-item__quantity a.button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+@media (max-width: 767px) {
+  .nav-previous .nav-content {
+    padding-left: 0;
+  }
+}
+.nav-previous .nav-content:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  left: 10px;
+}
+
+@media (max-width: 767px) {
+  .nav-next .nav-content {
+    padding-right: 0;
+  }
+}
+.nav-next .nav-content:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  right: 10px;
+}
+
+.anila-icon-left-arrow:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.anila-icon-right-arrow:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#reviews .comment-form .form-submit button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.comment-form .form-submit .submit:after,
+.elementor-widget-anila-contactform .wpcf7-button button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+[dir=rtl] .comment-form .form-submit .submit:after,
+[dir=rtl] .elementor-widget-anila-contactform .wpcf7-button button:after {
+  content: "";
+}
+.comment-form .form-submit .submit:before,
+.elementor-widget-anila-contactform .wpcf7-button button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+[dir=rtl] .comment-form .form-submit .submit:before,
+[dir=rtl] .elementor-widget-anila-contactform .wpcf7-button button:before {
+  content: "";
+}
+
+.elementor-widget-portfolio-text-scrolling .elementor-scrolling-item:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-banner-wrap-title .elementor-banner-button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+  margin-left: 8px;
+}
+
+.anila-image-hotspots-tooltips-link .anila-image-hotspots-icon:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-product .summary .inventory_status:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product .summary .inventory_status.out-stock:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+.single-product .pswp .pswp__button--arrow--left:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product .pswp .pswp__button--arrow--right:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.anila-product-pagination:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-content .custom-list li:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.mfp-woosq .mfp-arrow-left:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mfp-woosq .mfp-arrow-right:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.sizechart-button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosw-popup.woosw-show .woosw-popup-inner .woosw-popup-content a.button:before,
+.woosc-area-open-table .woosw-popup-inner .woosw-popup-content a.button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-popup.woosw-show .woosw-popup-inner .woosw-popup-content a.button:after,
+.woosc-area-open-table .woosw-popup-inner .woosw-popup-content a.button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosc-area.woosc-area-open-table .woosc-table-inner a.button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosc-area.woosc-area-open-table .woosc-table-inner a.button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.wp-block-woocommerce-cart-totals-block .wp-block-woocommerce-proceed-to-checkout-block a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.wp-block-woocommerce-cart-totals-block .wp-block-woocommerce-proceed-to-checkout-block a:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.anila-image-hotspots-main-icons .anila-image-hotspots-icon:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#woosq-popup .product .slick-slider .slick-prev:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+#woosq-popup .product .slick-slider .slick-next:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.entry-meta-top .post-author:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.entry-meta-top .posted-on:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-components-totals-coupon__form button:before,
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-checkout__actions_row button:before,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-components-totals-coupon__form button:before,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-checkout__actions_row button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-components-totals-coupon__form button:after,
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-checkout__actions_row button:after,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-components-totals-coupon__form button:after,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-checkout__actions_row button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.site-header-cart-side .widget_shopping_cart .woocommerce-mini-cart__buttons a.button:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.site-header-cart-side .widget_shopping_cart .woocommerce-mini-cart__buttons a.button:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.error404 .error-button a:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.error404 .error-button a:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.coach .single-content .custom-list li:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+.elementor-swiper-button-next.elementor-lightbox-prevent-close::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-swiper-button-prev.elementor-lightbox-prevent-close::before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-pagination-wrap a.products-load-more-btn:before {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-pagination-wrap a.products-load-more-btn:after {
+  font-family: "anila-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/*# sourceMappingURL=icons.css.map */
